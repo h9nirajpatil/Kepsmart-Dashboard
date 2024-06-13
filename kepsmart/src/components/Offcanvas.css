@@ -1,0 +1,72 @@
+.offcanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+}
+
+.offcanvas.show {
+  display: block;
+}
+
+.offcanvas-content {
+  width: 40%;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.close-button {
+  position: absolute;
+  top: 2.5vh;
+  right: 4vh;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.notitop {
+  width: 100%;
+  height: 6vh;
+  /* background-color: aquamarine; */
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  border: 1px solid #e5e5ed;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-left: 0;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.notimiddile {
+  width: 100%;
+  height: 10vh;
+  /* background-color: aquamarine; */
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  border: 1px solid #e5e5ed;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-top: 1%;
+}

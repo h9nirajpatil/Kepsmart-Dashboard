@@ -1,0 +1,41 @@
+.sidemenu {
+  width: 14vh;
+  height: 90vh;
+  border: 1px solid #f2f2f2;
+  border-top: 0;
+  border-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  /* background-color: aquamarine; */
+}
+#icon {
+  width: 6vh;
+  height: 6vh;
+  font-size: 2rem;
+  color: #ced4da;
+  border-radius: 10px;
+}
+#icon:hover {
+  width: 6vh;
+  height: 6vh;
+  background-color: #c7f6c7;
+  color: green;
+  cursor: pointer;
+  border-radius: 10px;
+  border: px solid green;
+}
+.leftsideicon {
+  margin: 100% 0;
+}
+.leftsideicon p {
+  font-size: 10px;
+  color: #ced4da;
+  font-weight: 700;
+}
+.leftsideicon p:hover {
+  color: green;
+  cursor: pointer;
+}

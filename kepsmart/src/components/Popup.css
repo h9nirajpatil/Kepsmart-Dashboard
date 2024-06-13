@@ -1,0 +1,61 @@
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px); /* Add blur effect */
+}
+.popup-content {
+  position: relative;
+  background-color: white;
+  width: 140vh;
+  height: 90vh;
+  border-radius: 8px;
+  /* display: flex; */
+  text-align: start;
+  overflow: hidden;
+}
+
+.close {
+  position: absolute;
+  top: -2vh;
+  right: 1vw;
+  cursor: pointer;
+  font-size: 3.5rem;
+}
+.graph-expand-head {
+  width: 100%;
+  height: 5vh;
+  margin-top: 1%;
+  /* background-color: aquamarine; */
+  /* border: 1px solid black; */
+}
+.graph-expand-searchbar {
+  width: 100%;
+  height: 8vh;
+  /* border: 1px solid black; */
+  /* background-color: rgb(246, 249, 255); */
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 2%;
+}
+
+.custom-select {
+  border: 1px solid #dee2ff;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 4px;
+  width: 18vw; /* Set the width */
+  height: 5vh; /* Set the height */
+  margin: 1vh 0vh;
+  background-color: transparent;
+  outline: none;
+}
